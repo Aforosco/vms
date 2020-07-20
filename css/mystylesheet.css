@@ -1,0 +1,99 @@
+#body {
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.65);
+    position: absolute;
+} /*This body sets the background image for the index page*/
+
+#body-checkin {
+	height: auto;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.65);
+    position: absolute;
+} /*This body sets the background image for the Check-in page*/
+
+#brandname {
+	font-size: 30px;
+}
+
+#checklog {
+	border-bottom: 1px solid lightgrey;
+	margin-right: 5px;
+	padding: 10px;
+} /*This is used to style the Check-log nav-link*/
+
+.mybutton {
+	border-radius: 20px;
+	width: 170px;
+} /*This is used to style the Schedule Meeting nav-link*/
+
+#main {
+	padding-top: 8%;
+}
+
+#welcome {
+	font-size: 8vw;
+	color: white;
+	margin-top: 10%;
+	margin-bottom: 60px;
+	font-family: 'Public Sans', sans-serif;
+} /*This sets a style for the welcome message*/
+
+#companyname {
+	color: #e4e4e4;
+	font-size: 6vw;
+	background-color: rgba(255, 255, 255, 0.04);
+	border-radius: 20px;
+	padding: 0px 10px 0px 10px;
+} /*This sets a translucent bg for the company name to subtly emphasize it*/
+
+#checkin {
+	font-size: 3em;
+	border-radius: 48px;
+}
+
+#checkin:hover, .mybutton:hover {
+	background-color: rgba(255, 255, 255, 0.65);
+}
+
+@media (max-width: 560px) {
+	#welcome {
+		font-size: 60px;
+		margin-top: 80px;
+	}
+
+	#companyname{
+		font-size: 40px;
+	}
+
+	#checkin {
+		font-size: 2em;
+	}
+} /*This mediaspace ensures responsive design for smaller devices*/
+
+
+
+#white-bg {
+	margin-top: 50px;
+	margin-bottom: 40px;
+	width: 80%;
+	background-color: rgba(255, 255, 255, 0.85);
+	border-radius: 7px;
+} /*This creates a barely opaque background for the check-in form*/
+
+.inputfield {
+	height: 4em;
+	border: none;
+	border-bottom: 4px solid #6e6e6e;
+	border-radius: 5px;
+	background-color: transparent;
+}
+
+.inputfield:enabled {
+	background-color: rgba(255, 255, 255, 0.5);
+} /*This sets up a bg styling for the inputfield*/
+
+.labeltext {
+	font-size: 1.5rem;
+	margin-top: 30px;
+}
